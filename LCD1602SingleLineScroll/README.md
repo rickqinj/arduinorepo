@@ -1,23 +1,26 @@
-# A Single-line Text Scrolling DEMO for LCD1602 Module
+# A Demo For The Single-line Text Scrolling with LCD1602
 
 ***
 
 ## Table of Contents
 1. [General Info](#general-info)
-2. [Technologies](#technologies)
-3. [Installation](#installation)
-4. [Collaboration](#collaboration)
-5. [FAQs](#faqs)
+2. [Solution](#solution)
+3. [Main code](#main-code)
+4. [Known Issues](#known-issues)
 
 ## General Info
 
 asdf
 
-## Technologies
+## Solution
 
 fdsa
 
-## FAQs
+## Main code
 
-faqssssss.
+asdf
+
+## Known Issues
+
+asdf
 
