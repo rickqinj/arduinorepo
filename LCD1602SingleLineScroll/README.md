@@ -15,6 +15,7 @@ asdf
 
 ## Technologies
 
+<pre>
 fdsa
 fdsa
 fdsafdsa
@@ -35,9 +36,11 @@ fdsa
 fdsa
 fdsa
 fdsa
+</pre>
 
 ## FAQs
 
+<pre>
 faqssssss.
 faqssssss.
 faqssssss.
@@ -52,4 +55,4 @@ faqssssss.
 faqssssss.
 faqssssss.
 faqssssss.
-
+</pre>
