@@ -1,4 +1,4 @@
-# A Single-line Text Scrolling DEMO for LCD1602 Module
+# A Demo for showing how to do a single-line text Scrolling with LCD1602 module
 
 ***
 
