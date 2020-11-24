@@ -1,7 +1,7 @@
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 
-//LCD screen width
+//LCD screen width.
 int screenWidth = 16;
 //Your text
 const String fixedTxt = "CANADA";
