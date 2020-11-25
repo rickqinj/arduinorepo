@@ -49,7 +49,7 @@ void loop() {
 }
 ```
 
-![1](D:\Workspace\arduinorepo\LCD1602Scrolling\1.gif)
+![](https://github.com/rickqinj/arduinorepo/blob/main/LCD1602Scrolling/Assets/1.gif)
 
 
 
