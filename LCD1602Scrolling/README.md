@@ -38,11 +38,15 @@ void setup() {
   lcd.backlight();
 }
 void loop() {
+  //set the cursor start point. From the first line first cell.
   lcd.setCursor(0,0);
   lcd.print(txt1);
+  //Re-set the cursor at the 2nd line last cell(15th).
   lcd.setCursor(15, 1);
   for (int pos = 0; pos < 16; pos++) {
+    //get the char accordingly from the char array, and print.
     lcd.print(txt2[pos]);
+    //shift the char to the one cell left.
     lcd.scrollDisplayLeft();
     delay(300);
   }
@@ -51,11 +55,23 @@ void loop() {
 
 ![](https://github.com/rickqinj/arduinorepo/blob/main/LCD1602Scrolling/Assets/1.gif)
 
-
-
-
+The above picture shows the result of running the pseudo code. Actually I want the text on the 1st line fixed, not scrolling. It seems that the method **scrollDisplayLeft()** will apply to all the characters shown on the screen.
 
 ## Open Issues
 
-asdf
+### Displaying is not effective
+
+You have to shift the cursor each time when it need to display a new character.
+
+### An overflow buffer will trouble
+
+In the demo above, I just have a text which contains only 24 characters for example. From my experiment, if there are more than 24 characters you want to scroll, the characters which are in the rest part out of 24 characters will be shown on the other line. This is really weird.
+
+#### Potential solution
+
+You may check it out in my another project. 
+
+[https://github.com/rickqinj/arduinorepo/tree/main/LCD1602SingleLineScroll](https://github.com/rickqinj/arduinorepo/tree/main/LCD1602SingleLineScroll)
+
+
 
