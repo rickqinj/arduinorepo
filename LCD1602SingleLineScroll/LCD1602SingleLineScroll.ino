@@ -6,7 +6,7 @@ int screenWidth = 16;
 //Your text
 const String fixedTxt = "CANADA";
 //Original text
-const String originalTxt = "Welcome to Niagara Falls";
+const String originalTxt = "Welcome to Niagara Falls!!!";
 //Scroll text
 String scrollTxt;
 //Display screen
@@ -14,9 +14,6 @@ LiquidCrystal_I2C lcd(0x27, screenWidth, 2);
 
 
 void setup() {
-  Serial.begin(9600);
-  while (!Serial) {;}
-
   //Padding 16 space at the end of the scroll text.
   String paddingSpaces;
   for (int i = 0; i < screenWidth; i++) {
